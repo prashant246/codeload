@@ -15,7 +15,7 @@ import java.util.HashMap;
  * Because nums[0] + nums[1] = 2 + 7 = 9,
  * return [0, 1].
  */
-class Solution {
+class TwoSumSolution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> complementValue = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++){
